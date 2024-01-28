@@ -1,0 +1,4 @@
+create database python1;
+use python1;
+create table customers(id int not null auto_increment primary key,Username varchar(255),age int,balance varchar(255));
+select * from customers;
